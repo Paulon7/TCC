@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos do body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(31, 31, 31);
+    color: #333;
+  }
+  
+  /* Estilos do header */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Necessário para posicionamento do número no canto */
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #1d5ac5;
+  }
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* orcamento.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background: #333;
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
+    text-align: center;
+}
+
+#contato-header {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 1.0rem;
+  }
+  
+  #contato-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #contato-header a:hover {
+    color: #1d5ac5; /* Mudar cor quando o link for hover */
+  }
+  
+  #contato-header img {
+    width: 40px;  /* Define a largura da imagem */
+    height: 40px; /* Define a altura da imagem */
+    object-fit: contain; /* Garante que a imagem mantenha a proporção */
+  }
+  
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007BFF;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Compra de acessórios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-pequena {
+    position: center;
+    width: 152px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 22px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#Banner {
+    text-align: center;
+    margin-top: 0; 
+    padding: 0; 
+}
+
+#Banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1d5ac5;
+}
+
+/* Estilização da seção de produtos */
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.produto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produto h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.destaque {
+    color: #ffffff;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-adicionar {
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-adicionar:hover {
+    background-color: #004aad;
+}
+
+/* Estilização do carrinho de compras */
+.carrinho {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.carrinho h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#lista-carrinho {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#total {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#finalizar-compra {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#finalizar-compra:hover {
+    background-color: #27ae60;
+}
+
+/* Estilo do Modal de Pagamento */
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Cor de fundo com opacidade */
+    background-color: rgba(0,0,0,0.4); /* Transparência */
+    padding-top: 60px;
+}
+
+.modal-conteudo {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+.fechar-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar-modal:hover,
+.fechar-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para o formulário de pagamento */
+#form-pagamento {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-pagamento label {
+    margin-bottom: 5px;
+}
+
+#form-pagamento input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

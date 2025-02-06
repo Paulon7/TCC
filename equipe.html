@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa equipe!</title>
+    <link rel="stylesheet" href="./css/equipe.css">
+</head>
+
+<body>
+    <header>
+        <div id="contato-header">
+            <p>Telefone: <a href="tel:+5511999999999">(11) 9999-9999</a></p>
+            <p>Email: <a href="mailto:contato@oficinaautopecas.com">contato@oficinaautopecas.com</a></p>
+            <p>Endereço: Praça Frei Eugênio, R. São Benedito, 85, Uberaba - MG</p>
+            <a href="https://www.google.com/maps/place/Centro+de+Forma%C3%A7%C3%A3o+Profissional+Fidelis+Reis+-+SENAI+Uberaba/data=!4m2!3m1!1s0x0:0x7d51e2721bc7f52e?sa=X&ved=1t:2428&ictx=111">
+                <img src="./imagens/icons8-localização-50.png" alt="iconemapa">
+            </a>
+        </div>
+
+        <img src="./imagens/Design sem nome (2).png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="./produtos.html">Acessórios</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="feedback.html">Avaliação</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="Banner">
+        <img src="./imagens/Nossaequipe.png" alt="banner">
+        <h1>Clique em cima para ver as especificações dos mecânicos.<h1>
+    </section>
+    <section class="team">
+        <div class="team-container">
+            <div class="team-member">
+                <img src="./imagens/mecanico1.webp" alt="Membro 1">
+                <h3>Henrique</h3>
+                <p>Mecânico</p>
+                <div class="description">
+                    <p>Henrique é especialista em motor e sistemas de transmissão. Com mais de 10 anos de experiência, ele garante que cada reparo seja feito com precisão e rapidez.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./imagens/mecanico2.webp" alt="Membro 2">
+                <h3>Paulo</h3>
+                <p>Mecânico</p>
+                <div class="description">
+                    <p>Paulo é um especialista em diagnóstico automotivo. Ele possui uma vasta experiência em identificar problemas complexos e aplicar as soluções mais eficazes.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./imagens/mecanico3.jpg" alt="Membro 3">
+                <h3>Alysson</h3>
+                <p>Mecânico</p>
+                <div class="description">
+                    <p>Alysson tem uma paixão por carros e é altamente qualificado em reparos em sistemas elétricos e eletrônicos dos veículos.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./imagens/mecanico5.jpg" alt="Membro 4">
+                <h3>Guilherme</h3>
+                <p>Mecânico</p>
+                <div class="description">
+                    <p>Guilherme é especializado em serviços de manutenção preventiva e revisão geral, garantindo que seu carro sempre esteja em ótimo estado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript para exibir e ocultar a descrição ao clicar
+        const teamMembers = document.querySelectorAll('.team-member');
+
+        teamMembers.forEach(member => {
+            member.addEventListener('click', () => {
+                const description = member.querySelector('.description');
+                // Toggle a visibilidade da descrição
+                description.style.display = description.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento - AgendAuto</title>
+    <link rel="stylesheet" href="./css/orcamento.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./imagens/Design sem nome (2).png" alt="Logo" class="logo-pequena">
+        <h1>Faça sua avaliação</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="produtos.html">Comprar acessórios</a></li>
+                <li><a href="equipe.html">Nossa equipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="orcamento-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Nos Avalie:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit">Enviar Orçamento</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 AgendAuto - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

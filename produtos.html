@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Acessórios - AgendAuto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="contato-header">
+            <p>Telefone: <a href="tel:+5511999999999">(11) 9999-9999</a></p>
+            <p>Email: <a href="mailto:contato@oficinaautopecas.com">contato@oficinaautopecas.com</a></p>
+            <p>Endereço: Praça Frei Eugênio, R. São Benedito, 85, Uberaba - MG</p>
+            <a href="https://www.google.com/maps/place/Centro+de+Forma%C3%A7%C3%A3o+Profissional+Fidelis+Reis+-+SENAI+Uberaba/data=!4m2!3m1!1s0x0:0x7d51e2721bc7f52e?sa=X&ved=1t:2428&ictx=111">
+                <img src="./imagens/icons8-localização-50.png" alt="iconemapa" >
+            </a>
+            </a>
+        </div>
+
+        <img src="./imagens/Design sem nome (2).png" alt="Logo" class="logo-pequena">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="equipe.html">Nossa equipe</a></li>
+                <li><a href="feedback.html">Avaliação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Banner">
+        <img src="./imagens/ACESSORIOS.png" alt="banner">
+    </section>
+    <main>
+        <section class="produtos">
+            <div class="produto">
+                <img src="./imagens/Capa de banco.png" alt="Capa para banco de carro">
+                <h2>Transforme seu carro com a <span class="destaque">Capa para Banco de Carro</span></h2>
+                <p>Conforto e estilo ao seu alcance! Proteja os bancos e adicione um toque de elegância ao seu carro.</p>
+                <span class="preco">R$ 50,00</span>
+                <button class="btn-adicionar" data-nome="Capa para banco de carro" data-preco="50">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="./imagens/Capa de volante.png" alt="Capa para volante">
+                <h2>Maximize sua direção com a <span class="destaque">Capa para Volante</span></h2>
+                <p>Desempenho e controle para suas mãos. Deixe sua direção ainda mais confortável e segura!</p>
+                <span class="preco">R$ 30,00</span>
+                <button class="btn-adicionar" data-nome="Capa para volante" data-preco="30">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="./imagens/Som.png" alt="Caixa de som automotiv">
+                <h2>Som de Alta Qualidade com a <span class="destaque">Caixa de Som Automotiva</span></h2>
+                <p>Transforme seu carro em uma verdadeira festa com som de qualidade e potência inigualável.</p>
+                <span class="preco">R$ 150,00</span>
+                <button class="btn-adicionar" data-nome="Caixa de som automotiv" data-preco="150">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="./imagens/Calota.png" alt="Jogo Calota">
+                <h2>Deixe seu carro mais estiloso com o <span class="destaque">Jogo de Calotas</span></h2>
+                <p>Elegância para suas rodas! Um toque moderno e sofisticado para o seu veículo.</p>
+                <span class="preco">R$ 100,00</span>
+                <button class="btn-adicionar" data-nome="Jogo Calota" data-preco="100">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="./imagens/Multimidía.png" alt="Central Multimídia">
+                <h2>Entre no Mundo da Tecnologia com a <span class="destaque">Central Multimídia</span></h2>
+                <p>Comande seu carro com a central multimídia que transforma sua experiência de direção!</p>
+                <span class="preco">R$ 500,00</span>
+                <button class="btn-adicionar" data-nome="Central Multimídia" data-preco="500">Comprar</button>
+            </div>
+    
+            <div class="produto">
+                <img src="./imagens/Aerofólio.png" alt="Aerofólio">
+                <h2>Ganhe Performance com o <span class="destaque">Aerofólio</span></h2>
+                <p>Design aerodinâmico para um desempenho superior e um estilo que destaca seu carro na estrada.</p>
+                <span class="preco">R$ 200,00</span>
+                <button class="btn-adicionar" data-nome="Aerofólio" data-preco="200">Comprar</button>
+            </div>
+        </section>
+    
+        <section class="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="lista-carrinho"></ul>
+            <p>Total: <span id="total">R$ 0,00</span></p>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </section>
+    </main>
+    <div id="modal-pagamento" class="modal">
+        <div class="modal-conteudo">
+            <span id="fechar-pagamento" class="fechar-modal">&times;</span>
+            <h2>Escolha a Forma de Pagamento</h2>
+            <form id="form-pagamento">
+                <label for="cartao">Cartão de Crédito/Débito</label>
+                <input type="radio" id="cartao" name="forma-pagamento" value="cartao" checked>
+                <br><br>
+                <label for="boleto">Boleto Bancário</label>
+                <input type="radio" id="boleto" name="forma-pagamento" value="boleto">
+                <br><br>
+                <button type="submit">Confirmar Pagamento</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Oficina Auto Peças</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    
+    <header>
+        <div id="contato-header">
+            <p>Telefone: <a href="tel:+5511999999999">(11) 9999-9999</a></p>
+            <p>Email: <a href="mailto:contato@oficinaautopecas.com">contato@oficinaautopecas.com</a></p>
+            <p>Endereço: Praça Frei Eugênio, R. São Benedito, 85, Uberaba - MG</p>
+            <a href="https://www.google.com/maps/place/Centro+de+Forma%C3%A7%C3%A3o+Profissional+Fidelis+Reis+-+SENAI+Uberaba/data=!4m2!3m1!1s0x0:0x7d51e2721bc7f52e?sa=X&ved=1t:2428&ictx=111">
+                <img src="./imagens/icons8-localização-50.png" alt="iconemapa" >
+            </a>
+            </a>
+        </div>
+
+        <img src="./imagens/Design sem nome (2).png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="./produtos.html">Acessórios</a></li>
+                <li><a href="orcamento.html">Orçamento</a></li>
+                <li><a href="equipe.html">Nossa equipe</a></li>
+                <li><a href="feedback.html">Avaliação</a></li>
+            </ul>
+        </nav>
+      
+    </header>
+    <section id="Banner">
+        <img src="./imagens/INICIO.png" alt="banner">
+    </section>
+
+
+    <main>
+        <section id="AcessoSite">
+            <div class="grid-container">
+                <div class="item" data-name="Orçamento">
+                    <img src="./imagens/apertos-de-mao-tipos.jpg" alt="aperto">
+                    <p>Se interessou? Fale conosco e receba seu orçamento em um clique.</p>
+                    <!-- Botão com onclick -->
+                    <button class="add-to-cart" onclick="window.location.href='orcamento.html'" aria-label="orcamento">Fazer Orçamento</button>
+                </div>
+                <div class="item" data-name="Acessorios">
+                    <img src="./imagens/som-automotivo.jpg" alt="ImagemAcessorios">
+                    <p>Encontre acessórios de qualidade para deixar seu carro mais estiloso, confortável e completo.</p>
+                    <!-- Botão com onclick -->
+                    <button class="add-to-cart" onclick="window.location.href='produtos.html'" aria-label="Adicionar Sistema de Som ao carrinho">Ver Acessorios</button>
+                </div>
+                <div class="item" data-name="Contato">
+                    <img src="./imagens/farol de led.jpg" alt="Farol de LED">
+                    <p>Sua opinião é essencial para nós! Avalie nosso serviço e ajude-nos a melhorar.</p>
+                    <!-- Botão com onclick -->
+                    <button class="add-to-cart" onclick="window.location.href='feedback.html'" aria-label="Adicionar Farol de LED ao carrinho">Avaliar</button>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Oficina Auto Peças. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+<script src="./js/script.js"></script>
+</html>
