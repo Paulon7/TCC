@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: rgb(31, 31, 31);
-  color: #fa0909;
+  color: #ffffff;
 }
 
 /* Estilos do header */
@@ -158,15 +158,27 @@ nav ul li a:hover {
 
 
 /* Responsividade */
+
+/* Para telas maiores que 768px, exibimos a grid com 3 colunas */
 @media (max-width: 768px) {
   .grid-container {
       grid-template-columns: repeat(2, 1fr);
   }
+
+  header img {
+    width: 130px; /* Logo um pouco menor em telas menores */
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
 }
 
+/* Para telas menores que 480px (smartphones), a grid se torna uma única coluna */
 @media (max-width: 480px) {
   .grid-container {
       grid-template-columns: 1fr;
+      padding: 10px; /* Ajuste no padding */
   }
 
   header img {
@@ -186,6 +198,22 @@ nav ul li a:hover {
       width: 100%; /* Ajusta a largura do número de contato */
       text-align: center; /* Alinha o texto ao centro em telas menores */
       padding: 10px;
+  }
+
+  #contato-header a {
+      font-size: 0.9rem; /* Font menor em telas pequenas */
+  }
+
+  .item {
+      padding: 15px; /* Ajuste do padding nos itens para melhor aproveitamento de espaço */
+  }
+
+  .item p {
+      font-size: 1rem; /* Fonte menor em telas menores */
+  }
+
+  .item button {
+      padding: 10px 20px; /* Ajuste no tamanho do botão para telas pequenas */
   }
 }
 
